@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:lightblue;
+    color:black;
+}
+
+header{
+    background:lightblue;
+    position:sticky;
+    top:0%;
+    width:100%;
+
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:slateblue;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    margin:20px;
+    color:white;
+}
+
+.btn{
+    background:darkblue;
+    color:lightgrey;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+.resume-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:20px 24px;
+    background:darkblue;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:60;
+    transition:0.3s;
+}
+
+.resume-btn:hover{
+    background:darkblue;
+}
+
+section{
+    padding:80px 10%;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    background:darkblue;
+    color:dimgrey;
+}
+
+footer{
+    background:darkgrey;
+    text-align:center;
+    padding:20px;
+}
