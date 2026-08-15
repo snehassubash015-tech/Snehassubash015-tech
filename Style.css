@@ -77,11 +77,11 @@ body {
 /* Profile Image */
 
 .profile-box {
-    width: 480px;
-    height: 610px;
+    width: 480pxpx;
+    height: 640px;
 
     border: 8px solid teal;
-    border-radius: 25px;
+    border-radius: 10px;
 
     overflow: hidden;
 
